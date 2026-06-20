@@ -272,7 +272,7 @@ export default function Home() {
         }}
       />
 
-      <main className="relative z-10 flex flex-1 w-full max-w-2xl flex-col items-center px-5 py-12 sm:py-20">
+      <main className="relative z-10 flex flex-1 w-full max-w-3xl flex-col items-center px-6 py-12 sm:py-20">
         {/* ============================================
             HERO SECTION
             ============================================ */}
@@ -284,14 +284,14 @@ export default function Home() {
           </div>
 
           {/* Headline */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-5 leading-tight">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-5 leading-tight">
             <span className="gradient-text">Free Trial</span>
             <br />
             <span className="text-foreground">Reminder</span>
           </h1>
 
           {/* Subheading */}
-          <p className="text-slate-400 text-base sm:text-lg max-w-md mx-auto leading-relaxed">
+          <p className="text-slate-400 text-lg sm:text-xl max-w-lg mx-auto leading-relaxed">
             Never get charged for a subscription you forgot to cancel. Get a
             calendar alert{" "}
             <span className="text-accent-cyan font-medium">
