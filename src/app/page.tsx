@@ -583,6 +583,33 @@ export default function Home() {
             ============================================ */}
         <footer className="w-full mt-16 sm:mt-20 pb-8 text-center">
           <div className="h-px w-full bg-gradient-to-r from-transparent via-slate-700/50 to-transparent mb-6" />
+
+          {/* Built for Digital Heroes Button */}
+          <div className="mb-6">
+            <a
+              id="digital-heroes-btn"
+              href="https://digitalheroesco.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-400 hover:to-orange-400 transition-all hover:scale-105 hover:shadow-lg hover:shadow-amber-500/25"
+            >
+              ⚡ Built for Digital Heroes
+            </a>
+          </div>
+
+          {/* Developer Info */}
+          <div className="mb-5 p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] inline-block">
+            <p className="text-sm font-medium text-foreground">
+              Vansh Hemraj Singone
+            </p>
+            <a
+              href="mailto:vanshsingone@gmail.com"
+              className="text-sm text-accent-cyan hover:text-accent-purple transition-colors"
+            >
+              vanshsingone@gmail.com
+            </a>
+          </div>
+
           <p className="text-sm text-slate-600">
             Built with{" "}
             <span className="text-accent-purple">Next.js</span> &{" "}
